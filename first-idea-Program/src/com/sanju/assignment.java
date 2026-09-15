@@ -20,8 +20,16 @@ public class assignment {
             System.out.println("Leap Year");
         }else {
             System.out.println("Not a Leap year");
-        }
+          }
 
+        // Take two numbers and print the sum of both.
+
+        int num1 = input.nextInt();
+        int num2 = input.nextInt();
+
+        int sum = num1 + num2;
+
+        System.out.println(sum);
 
     }
 }
