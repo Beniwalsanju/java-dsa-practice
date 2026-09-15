@@ -17,6 +17,7 @@ public class assignment {
             System.out.println("Leap Year");
         }else {
             System.out.println("Not a Leap year");
+            System.out.println("Hello World");
         }
 
 
