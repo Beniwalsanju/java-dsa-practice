@@ -1,6 +1,9 @@
 package com.sanju;
 
+
 import java.util.Scanner;
+
+    // Input a year and find whether it is a leap year or not.
 
 public class assignment {
     static void main(String[] args) {
