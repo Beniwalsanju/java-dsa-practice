@@ -24,12 +24,26 @@ public class assignment {
 
         // Take two numbers and print the sum of both.
 
+        System.out.println("Enter two numbers:");
+
         int num1 = input.nextInt();
         int num2 = input.nextInt();
 
         int sum = num1 + num2;
 
         System.out.println(sum);
+
+        // Take a number as input and print the multiplication table for it.
+
+        System.out.println("Enter a number:");
+
+        int number = input.nextInt();
+
+        for (int i = 1; i <= 10; i++){
+            System.out.println(number + "x" + i + "=" + (number * i));
+        }
+
+
 
     }
 }
